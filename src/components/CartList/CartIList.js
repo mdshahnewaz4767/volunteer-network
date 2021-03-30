@@ -16,5 +16,4 @@ const CartIList = (props) => {
     );
 };
 
-
 export default CartIList;
