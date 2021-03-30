@@ -20,13 +20,13 @@ const Header = () => {
                                 <Link to="/home" className="nav-link font-weight">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/donation" className="nav-link font-weight">Donation</Link>
+                                <Link to="/" className="nav-link font-weight">Donation</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/events" className="nav-link font-weight">Events</Link>
+                                <Link to="/addEvents" className="nav-link font-weight">Events</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/blog" className="nav-link font-weight">Blog</Link>
+                                <Link to="/" className="nav-link font-weight">Blog</Link>
                             </li>
                             <li className="nav-item">
                                 <button className="btn register-btn btn-style">Register</button>
