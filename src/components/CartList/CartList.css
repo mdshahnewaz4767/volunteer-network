@@ -1,0 +1,8 @@
+.cart-img{
+    height: 190px;
+    width: 260px;
+    object-fit: cover;
+}
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.btn-style{
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.register-btn,
+.btn-search{
+    color: white;
+    background-color: #4f92f7;
+    border-color: #3884f7;
+    transition: all .3s;
+}
+.register-btn:hover,
+.btn-search:hover{
+    color: white;
+    background-color: #3b78d3;
+    border-color: #2a69c7;
+}
+.admin-btn{
+    color: white;
+    background-color: #535c65;
+    border-color: #69737c;
+}
+.admin-btn:hover{
+    color: white;
+    background-color: #3e454b;
+    border-color: #454c52;
+    transition: all .3s;
+}
+.font-weight{
+    font-weight: 500 !important;
+}
+.nav-link{
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000 !important;
+    transition: .3s;
+}
+.nav-link:hover{
+    color: rgb(78, 77, 77) !important;
+}
+.img-style{
+    height: 55px;
+    width: 150px;
+    object-fit: fill;
+}
+.search-item{
+    margin: 0px auto;
+    width: 50%;
+}
+.form-control{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+h3{
+    font-size: 22px;
+}
+@media (max-width: 991px) {
+    .btn-style{
+        margin-top: 1rem;
+    }
+    .navbar-toggler{
+        background-color: #545454;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    .col-md-6 {
+        width: 50% !important;
+    }
+}
