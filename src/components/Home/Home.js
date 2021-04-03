@@ -7,7 +7,13 @@ const Home = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        setItems(fakeData);
+        fetch("http://localhost:4055/events")
+        .then(res => res.json())
+        .then(data => {
+            // console.log(data);
+            setItems(data);
+        })
+        // setItems(fakeData);
     })
     return (
         <div>
@@ -15,7 +21,7 @@ const Home = () => {
             <div className="container mt-4">
                 <div className="row row-cols-1 row-cols-md-3">
                     {
-                        items.map(item => <CartIList item={item} key={item.id}></CartIList>)
+                        items.map(item => <CartIList item={item} key={item._id}></CartIList>)
                     }
                 </div>
             </div>
