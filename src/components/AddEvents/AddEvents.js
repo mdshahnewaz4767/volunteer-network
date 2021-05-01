@@ -13,7 +13,7 @@ const AddEvents = () => {
         };
         console.log(eventData);
         
-        fetch("http://localhost:4055/addEvent", {
+        fetch("https://gentle-hamlet-18819.herokuapp.com/addEvent", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

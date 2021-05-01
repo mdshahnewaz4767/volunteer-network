@@ -1,0 +1,7 @@
+.home-section {
+    background-image: linear-gradient(hsla(0,0%,100%,.9),hsla(0,0%,100%,.9)),url(../../images/bg/header-bg.png);
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+    position: relative;
+}

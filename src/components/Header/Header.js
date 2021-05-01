@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header-section">
             <nav className="navbar navbar-expand-lg navbar-dark pt-3">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
@@ -40,7 +40,7 @@ const Header = () => {
             </nav>  
 
             <div className="container mt-5 ">
-                <h3 className="text-uppercase font-weight-bold mb-4 text-center">I grow by helping people in need.</h3>
+                <h1 className="text-uppercase mb-4 text-center">I grow by helping people in need.</h1>
                 <div className="form-inline mt-3 d-flex justify-content-center">
                     <div className="input-group col-md-6">
                         <input className="form-control" type="search" placeholder="Search..." aria-label="Search"/>
